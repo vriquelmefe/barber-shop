@@ -1,0 +1,33 @@
+.articule {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    margin: auto;
+    & img {
+        height: 200px;
+    }
+}
+
+.articule__thumbails {
+    align-items: center;
+    &__tittle {
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+@media (max-width: 567px) {
+    .articule__thumbails--image {
+        padding-bottom: .5rem;
+        width: 120px;
+        & img {
+            height: 100px;
+            width: 100px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 566px) {
+    .articule__thumbails-link {
+        text-align: center;
+    }
+}

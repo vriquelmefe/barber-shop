@@ -1,0 +1,9 @@
+.footer {
+    background-color: $eerie-black;
+    text-align: center;
+    &__logo-image {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: max-content;
+    }
+}

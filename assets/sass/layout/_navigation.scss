@@ -1,0 +1,29 @@
+.menu_navigation {
+    background-color: $eerie-black;
+    color: $white;
+    font-family: $roboto;
+    font-size: $medium;
+    .logo__images {
+        height: 30px;
+    }
+}
+
+.lineas__hamburguesa {
+    color: $white;
+}
+
+.nav-link {
+    color: $white;
+    &:hover {
+        color: $ruddy-pink;
+    }
+    /*@include hover-focus() {
+        color: red !important;
+    }*/
+}
+
+@media (min-width: 320px) and (max-width: 575.97px) {
+    .logo__images {
+        height: 25px;
+    }
+}

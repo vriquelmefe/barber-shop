@@ -1,0 +1,28 @@
+.buttones {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 85vw;
+}
+
+.buttones__color {
+    background-color: $nickel;
+    color: $white;
+    font-weight: $light;
+    font-size: $medium;
+    height: 40px;
+    &:hover {
+        background-color: $platinum;
+        color: $white;
+    }
+    &:focus {
+        border: 2px solid $light-gray;
+        background-color: $nickel;
+    }
+}
+
+@media (min-width: 320px) {
+    .buttones__color {
+        font-size: $small;
+    }
+}

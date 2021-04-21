@@ -1,0 +1,13 @@
+body {
+    font-family: $roboto;
+}
+
+button:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+a:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}

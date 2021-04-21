@@ -1,0 +1,34 @@
+.articule__thumbails-link--color {
+    color: $ruddy-pink;
+    &:hover {
+        color: $eerie-black;
+        text-decoration: none;
+    }
+    &:focus {
+        color: $platinum;
+    }
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+}
+
+.page-link {
+    color: $eerie-black;
+    background-color: $white;
+    &:hover {
+        background-color: $eerie-black;
+        color: $white;
+    }
+    &:focus {
+        background-color: $eerie-black;
+        color: $white;
+    }
+}
